@@ -1,5 +1,7 @@
 # Computer Vision Assignment 2 by st126488: Classification, Detection, and Tracking
 
+Github link: [Click here](https://github.com/01-AlstonAlvares/CV_Object_Detection_and_Tracking/tree/main)
+
  ⚠️ Important Note on Datasets
 
 Please note that the datasets used for this project are **not included** in this zip file due to their large file size.
@@ -93,3 +95,4 @@ This task compares the speed and robustness of several classical object trackers
     * **Fast:** `KCF` (~157 FPS) and `TLD` (~86 FPS) were also very fast.
     * **Slowest:** `CSRT` (~27 FPS) and `MIL` (~24 FPS) were significantly slower, though still near real-time.
 * **Conclusion:** For this specific tracking task, `MOSSE` offered the best performance by a wide margin, though `KCF` and `TLD` are also excellent high-speed options. `CSRT` is often more robust on challenging videos, which explains its slower speed.
+
