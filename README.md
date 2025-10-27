@@ -86,7 +86,7 @@ This task compares the speed and robustness of several classical object trackers
     * `MOSSE` (Minimum Output Sum of Squared Error)
     * `MIL` (Multiple Instance Learning)
     * `TLD` (Tracking-Learning-Detection)
-* **Process:** The script first prompts the user to select an object by drawing a bounding box on the first frame of a video. It then runs each tracker sequentially on the full video, starting with the same initial box, and reports its average FPS and success rate.
+* **Process:** The script first prompts the user to select an object by drawing a bounding box on the first frame of a video. It then runs each tracker sequentially on the full video, starting with the same initial box, and reports its average FPS and success rate and saves the video with each of them and also a comparision video.
 
 ### Key Findings
 * **Accuracy:** On the simple test video, **all trackers achieved a 100% success rate**, successfully tracking the object without failure.
