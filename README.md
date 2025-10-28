@@ -8,6 +8,7 @@ Please note that the datasets used for this project are **not included** in this
 
 * **Task 1 (Classification):** The `task_1_classification.ipynb` script is configured to automatically download the **CIFAR-10** dataset upon first run.
 * **Task 2 (Detection):** You will need to provide your own test images and a test video. The script was run using the **COCO128** dataset for images and a file named `test.gif` for video.
+* Link to COCO128 Dataset: [Click here](https://www.kaggle.com/datasets/ultralytics/coco128)
 * **Task 3 (Tracking):** You will need to provide your own test video. The script was run using a file named `test.gif`.
 
 ## Setup and Dependencies
